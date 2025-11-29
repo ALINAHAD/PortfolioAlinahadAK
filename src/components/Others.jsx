@@ -19,7 +19,7 @@ import img6 from "../assets/photoshops/wh.jpg";
 import img7 from "../assets/photoshops/cancer3.jpg";
 import img8 from "../assets/photoshops/doodle.jpg";
 import img9 from "../assets/photoshops/yogaday.jpg";
-import img10 from "../assets/photoshops/yogaday.jpg";
+import img10 from "../assets/photoshops/complaintbox.jpg";
 
 import img11 from "../assets/photoshops/cancer2.png";
 import img12 from "../assets/photoshops/dec.6-3.png";
