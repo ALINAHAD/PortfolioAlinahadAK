@@ -43,13 +43,13 @@ function Projects() {
             <ProjectCard
            
                 imgPath={netflix}
-                imgStyle={{ height: "370px", width: "370px", objectFit: "cover" }}
+               
 
               isBlog={false}
               title="Netflix Clone – Stream Your Way"
               description="A sleek responsive movie-and-series browsing interface built with modern web technologies. Browse trending titles, view details, and enjoy a smooth, styled experience inspired by leading streaming platforms."
               ghLink="https://github.com/ALINAHAD/Netflix_Clone_Website.git"
-              demoLink="https://netflix-clone-website-git-main-alinahad-aks-projects.vercel.app/"
+              demoLink="https://netflix-clone-alinahad.vercel.app/"
               subtitle= "Tools Used: HTML CSS JAVASCRIPT"
             />
           </Col>
@@ -57,12 +57,12 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Dashboard}
-               imgStyle={{ height: "300px", width: "370px", objectFit: "cover" }}
+              
               isBlog={false}
               title="EduBoard – Student Dashboard"
               description="A dynamic, modern dashboard for students that brings together courses, progress tracking, deadlines, and analytics in one place. The intuitive interface is built to help learners monitor their studies, review key metrics, and stay on top of tasks with ease."
               ghLink="https://github.com/ALINAHAD/Student_Dashboard.git"
-              demoLink="https://student-dashboard-git-main-alinahad-aks-projects.vercel.app/"              
+              demoLink="https://student-dashboard-eduboard-omega.vercel.app/"              
               subtitle= "Tools Used: HTML CSS JAVASCRIPT"
             />
           </Col>
@@ -114,7 +114,7 @@ function Projects() {
             <ProjectCard
            
                 imgPath={Delivery2}
-                imgStyle={{ height: "370px", width: "370px", objectFit: "cover" }}
+               
 
               isBlog={false}
               title="Netflix Clone – Stream Your Way"
