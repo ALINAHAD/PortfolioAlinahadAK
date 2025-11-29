@@ -261,6 +261,8 @@ button:focus {
   width: 100%;
 }
 
+/* Default state (top of page) */
+
 /* Smooth show/hide navbar based on scroll direction */
 .nav-hide {
   transform: translateY(-120%);
@@ -271,6 +273,7 @@ button:focus {
   transform: translateY(0);
   transition: transform 0.35s ease-in-out !important;
 }
+
 .resume-button {
   background-color: #510f7a !important;
   color: #000 !important;
@@ -653,12 +656,31 @@ button:focus {
   padding:20px 10px 20px 10px !important;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+.mern-others {
+  color:white !important;
+  margin-bottom:20px !important;
+  border: 2px solid #934cce5e !important;
+  text-align: center !important;
+  font-size:2rem !important;
+  font-weight:500 !important;
+  text-align: left !important;
+  padding:20px 10px 20px 10px !important;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
 
 @media (max-width: 767px) {
   .mern {
-    font-size:1.3rem !important;
+    font-size:1rem !important;
+    padding:10px 5px 10px 5px !important;
 
   } 
+  .mern-others {
+    font-size:1rem !important;
+    
+     padding:10px 5px 10px 5px !important;
+     margin-top:2rem;
+
+  }
 }
 .project-card {
   padding-top: 20px !important;
@@ -997,6 +1019,9 @@ object-fit: contain;
 .fork-btn-inner::after {
   display: none !important;
 }
+.others-section{
+  min-height:80vh;
+}
 
   .others-swiper{
     width: 90%;
@@ -1032,7 +1057,11 @@ object-fit: contain;
   transition: transform 0.3s;
   border-radius: 10px;
 }
-
+@media (max-width: 767px) {
+  .slider-img {
+    height: 100%;
+  }
+}
 .slider-img:hover {
   transform: scale(1.1);
 }

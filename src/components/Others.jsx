@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import { Container } from "react-bootstrap";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -73,6 +74,7 @@ export default function Slider() {
   return (
     <>
       {/* POPUP MODAL */}
+     <Container className="others-section" id="others">
       {selectedImage && (
         <div className="popup-overlay" onClick={() => setSelectedImage(null)}>
           <div className="popup-image-box">
@@ -83,7 +85,7 @@ export default function Slider() {
 
       {/* ---- SLIDER #1 ---- */}
       <div className="others-swiper">
-        <h1 className="mern">
+        <h1 className="mern-others">
           <strong className="purple">Photoshop</strong> Designs
         </h1>
 
@@ -156,6 +158,7 @@ export default function Slider() {
           ))}
         </Swiper>
       </div>
+    </Container>
     </>
   );
 }

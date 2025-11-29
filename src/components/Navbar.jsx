@@ -50,9 +50,16 @@ function NavBar() {
         </Navbar.Brand>
 
         <Navbar.Toggle
-          aria-controls="responsive-navbar-nav"
-          onClick={() => updateExpanded(expand ? false : "expanded")}
-        />
+  aria-controls="responsive-navbar-nav"
+  onClick={() => {
+    updateExpanded(expand ? false : "expanded");
+  }}
+>
+  <span></span>
+  <span></span>
+  <span></span>
+</Navbar.Toggle>
+
 
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto active">
@@ -88,14 +95,16 @@ function NavBar() {
                
                   
 
-            <button
-              href="https://github.com/ALINAHAD/PortfolioAlinahadAK.git"
-              target="_blank"
-              className="forkbutton"
-            >
-              <CgGitFork style={{ fontSize: "1.2em" }} /> <AiFillStar style={{ fontSize: "1.1em" }} />
-            </button>
-
+            <Button
+                    as="a"
+                    role="button"
+                    href="https://github.com/ALINAHAD/PortfolioAlinahadAK.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="forkbutton"
+                  >
+                    <CgGitFork style={{ fontSize: "1.2em" }} />
+                  </Button> 
           </Nav>
         </Navbar.Collapse>
       </Container>
