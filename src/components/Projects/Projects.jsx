@@ -117,7 +117,7 @@ function Projects() {
                
 
               isBlog={false}
-              title="Netflix Clone – Stream Your Way"
+              title="Delivery Operations Analysis"
               description="A complete end-to-end delivery operations analytics project analyzing shipment timelines, failure patterns, partner performance, and cost behavior using SQL, Python, and Power BI to uncover operational bottlenecks and optimization opportunities across the logistics lifecycle."
               ghLink="https://github.com/ALINAHAD/Delivery-Operations-Analysis.git"
               demoLink="https://sites.google.com/view/mykartalideliveryoperatin/home?authuser=0"
